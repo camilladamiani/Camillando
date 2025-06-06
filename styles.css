@@ -8,11 +8,12 @@ body {
 }
 
 header {
-    background-color: #ffffff;
-    color: #003366;
-    padding: 1rem;
-    text-align: center;
+  background-color: #ffffff; /* fundo branco */
+  color: #003366; /* texto azul escuro */
+  padding: 1rem;
+  text-align: center;
 }
+
 
 header h1 {
     margin: 0;
@@ -34,9 +35,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
+  color: #003366; /* azul escuro */
+  text-decoration: none;
 }
+
 
 main {
     padding: 2rem;
