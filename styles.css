@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-color: #ffffff; /* fundo branco */
+  background-color: #FFD700; /* fundo dourado */
   color: #003366; /* texto azul escuro */
   padding: 1rem;
   text-align: center;
@@ -87,5 +87,5 @@ footer {
   max-height: 300px;
   height: auto;
   display: block;
-  margin: 20px auto;
+  margin: 0 auto 20px auto;
 }
