@@ -1,19 +1,24 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;    
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    font-weight: bold;
+}
+
+body p {
+    font-family: Arial, sans-serif;        
+    color: #333;
 }
 
 header {
-  background-color: #FFD700; /* fundo dourado */
-  color: #003366; /* texto azul escuro */
-  padding: 1rem;
-  text-align: center;
+    background-color: #00004c; /* fundo dourado */
+    color: #4b0303; 
+    padding: 1rem;
+    text-align: center;
 }
-
 
 header h1 {
     margin: 0;
@@ -35,8 +40,8 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #003366; /* azul escuro */
-  text-decoration: none;
+     color: #ffffff; /* cor botão */
+     text-decoration: none;
 }
 
 
@@ -65,28 +70,30 @@ article h2 {
     display: inline-block;
     margin-top: 1rem;
     padding: 0.5rem 1rem;
-    background-color: #4CAF50;
+    background-color: #00004c;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
 
 footer {
-    background-color: #DCDCDC;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: fixed;
-    bottom: 0;
+    height: 40px;
     width: 100%;
-    max-height: 100px;
+    text-align: center;
+    background-color: #DCDCDC;
+    bottom: 0;  
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: inherit;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .logo-topo {
-  width: 100%;
-  max-width: 200px;
-  max-height: 300px;
-  height: auto;
-  display: block;
-  margin: 0 auto 20px auto;
+    width: 100%;
+    max-width: 200px;
+    max-height: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
 }
