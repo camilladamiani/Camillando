@@ -8,28 +8,85 @@
 </head>
 <body>
 <header>
-<img src="imagens/camillando.png" alt="Camillando - Pílulas da qualidade para o mundo!" class="logo-topo">
-<nav>
-    <ul>
-        <li><a href="index.html">Início</a></li>
-   <!-- <li><a href="#">Início</a></li> -->
-   <!-- li><a href="#">Sobre</a></li> -->
-        <li><a href="sobre.html">Sobre</a></li>
-    </ul>
-</nav>
+    <img src="imagens/camillando.png" alt="Camillando - Pílulas da qualidade para o mundo!" class="logo-topo">
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
 </header>
-    <main>
-        <section id="posts">
-            <article>
-                <h2>Primeiro Post</h2>
-                <p>Bem-vindo ao Camillando! Aqui você encontrará conteúdos incríveis sobre qualidade de software. Em breve novidades, aguardem!</p>
-                <a href="#" class="affiliate-link">Clique em Sobre para saber mais de mim!</a>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Camillando. Todos os direitos reservados.</p>
-    </footer>
-    <script src="scripts.js"></script>
+<main>
+    <section id="posts">
+
+        <!-- Artigo mais recente -->
+        <article>
+            <h2>Pirâmide de testes - A Base de Tudo</h2>
+            <p class="date">Adicionado em: 08/06/2025</p>
+
+            <p>Se você quer garantir que seu software seja confiável e livre de surpresas, precisa entender a <strong>Pirâmide de Testes</strong>.
+            <p>Ela é a base de qualquer estratégia de qualidade eficiente, ajudando equipes a equilibrar cobertura de testes com agilidade.</p>          
+
+            <h3>O que é a Pirâmide de Testes?</h3>
+            <p>É um modelo simples criado por Mike Cohn, que organiza os testes em três camadas:</p>
+            <ul>
+                <li>Testes Unitários (Base)</li>
+                <li>Testes de Integração (Meio)</li>
+                <li>Testes End-to-End (Topo)</li>
+            </ul>
+            <figure class="imagem-centro">
+                <img src="imagens/piramide-testes.png" alt="Pirâmide de Testes em Qualidade de Software">
+                <figcaption>Pirâmide de Testes - Mike Cohn</figcaption>
+            </figure>
+            <p>Cada camada tem um propósito diferente, e a ideia é que a maioria dos testes deve ficar na base, com menos testes mais complexos no topo.</p>
+
+            <h3>1. Testes Unitários - A Base da Pirâmide</h3>
+            <p>Imagine que você é um analista de qualidade e está testando um sistema de login.</p>
+            <p>Você escreve testes unitários para garantir que a função que verifica o e-mail seja válida está funcionando direitinho. Isso é rápido, direto e garante que erros básicos sejam corrigidos desde o início.</p>
+            <p><strong>Por que é importante?</strong><br>
+            
+            - Rápidos e baratos: Testes que você pode rodar constantemente sem afetar a velocidade de desenvolvimento.<br>
+            - Base sólida: Se algo quebrar aqui, você sabe que pode impactar o sistema todo.</p>
+
+            <h3>2. Testes de Integração - O Meio da Pirâmide</h3>
+            <p>Agora que você tem a função de login testada, você precisa garantir que ela está interagindo corretamente com o banco de dados e com o sistema de autenticação. Aqui entram os testes de integração, que vão verificar se as diferentes partes do sistema estão se comunicando da maneira certa.</p>
+            <p><strong>Por que é importante?</strong><br>
+            - Validam o sistema como um todo.<br>
+            - Detectam falhas de interação, como a senha sendo salva incorretamente.</p>
+
+            <h3>3. Testes End-to-End - O Topo da Pirâmide</h3>
+            <p>Finalmente, você escreve testes end-to-end, onde simula o comportamento do usuário. Você abre o aplicativo, preenche o formulário de login, clica no botão e valida que o sistema redireciona para a página principal. Esses testes são mais lentos e custosos, mas garantem que a jornada do usuário está fluindo como esperado.</p>
+            <p><strong>Por que é importante?</strong><br>
+            - Garantem a experiência do usuário.<br>
+            - Mais pesados e caros: essenciais, mas devem ser usados com parcimônia.</p>
+
+            <h3>Como Aplicar a Pirâmide de Testes no Seu Dia a Dia?</h3>
+            <ul>
+                <li>Teste mais, automatize sempre que possível.</li>
+                <li>Use testes end-to-end com moderação.</li>
+                <li>Revise sua estratégia com o tempo.</li>
+            </ul>
+
+            <h3>Conclusão</h3>
+            <p>A Pirâmide de Testes não é só uma teoria: ela é a chave para um processo de testes eficiente e eficaz.</p>
+            <p>Ao aplicá-la no seu dia a dia, você consegue testar mais rápido, economizar recursos e garantir que seu software entregue o que promete — qualidade, confiabilidade e uma excelente experiência para o usuário.</p>
+
+            <p><strong>Dica Final:</strong> Se você ainda não implementou a pirâmide de testes, comece com os testes unitários. São rápidos e dão uma base sólida para o resto da estratégia!</p>
+        </article>
+
+        <!-- Post mais antigo -->
+        <article>
+            <h2>Primeiro Post</h2>
+            <p class="date">Adicionado em: 01/06/2025</p>
+            <p>Bem-vindo ao Camillando! Aqui você encontrará conteúdos incríveis sobre qualidade de software. Em breve novidades, aguardem!</p>
+            <a href="#" class="affiliate-link">Clique em Sobre para saber mais de mim!</a>
+        </article>
+
+    </section>
+</main>
+<footer>
+    <p>&copy; 2025 Camillando. Todos os direitos reservados.</p>
+</footer>
+<script src="scripts.js"></script>
 </body>
 </html>

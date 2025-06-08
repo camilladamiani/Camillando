@@ -47,6 +47,7 @@ nav ul li a {
 
 main {
     padding: 2rem;
+    text-align: justify; /* aqui aplica a justificação */
 }
 
 #posts {
@@ -96,4 +97,48 @@ footer {
     height: auto;
     display: block;
     margin: 0 auto 20px auto;
+}
+
+.date {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+/* Títulos dentro dos artigos */
+article h3,
+article h2:not(:first-child) {
+    font-family: Arial, sans-serif;
+    color: #00004c;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Texto geral dos artigos */
+article p,
+article li {
+    font-family: Arial, sans-serif;
+    color: #000;
+    font-weight: normal;
+    text-align: justify; /* aqui aplica a justificação */
+}
+
+.imagem-centro {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.imagem-centro img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-centro figcaption {
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.5rem;
+    font-style: italic;
 }
