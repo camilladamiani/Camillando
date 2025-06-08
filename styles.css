@@ -107,8 +107,7 @@ footer {
 }
 
 /* Títulos dentro dos artigos */
-article h3,
-article h2:not(:first-child) {
+article h3{
     font-family: Arial, sans-serif;
     color: #00004c;
     font-style: italic;
